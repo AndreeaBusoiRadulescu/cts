@@ -21,8 +21,12 @@
 
 using namespace std;
 
+//adaugare de mai multe comentarii exlicative
+
 void withdraw(double *balance, double amount)
 {
+	// as fi sters "else"-urile pentru a face codul mai lizibil
+
 	if (*balance < 0)
 		*balance +=  *balance * 0.1; //penalizare de 10%
 	else
@@ -41,8 +45,17 @@ void withdraw(double *balance, double amount)
 
 int main()
 {
+	// as fi modificat numele variabilelor
+	// unele variabile se regasesc in limba romana, iar altele in limba engleza
+	// modificare cu rol de cursivitate in cod
+
 	double balantaContCurent;
 	double sumaDeExtrasDinCont;
+
+	// aceste exemple le-am scris, la momentul lor, cu scop demostrativ
+	// as modifica secventele de copy paste:
+	// - pentru variabilele care sunt reinitializate as folosi vectori, care vor fi parcursi ulterior, eventual un tablou bidimensional pentru perechi de valori
+	// - as realiza o functie pentru mesaje si apelul care se repeta, parcurgand vectorii de la punctul anterior  
 
 	balantaContCurent = -5;
 	sumaDeExtrasDinCont = 2000;
