@@ -16,14 +16,6 @@ public final class Car extends Vehicle implements Taxable {
         this.capacity = capacity;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
     public int getCapacity() {
         return capacity;
     }
